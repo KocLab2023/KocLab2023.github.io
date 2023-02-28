@@ -679,9 +679,20 @@ blockquote p {
 .social-links .e-social-link .fa,
 .social-links .e-social-link .fas,
 .social-links .e-social-link .fab {
-  padding-right: 0.5rem;
+  padding-right: 0.6rem;
 }
 .social-links .e-social-link:hover span {
+  text-decoration: underline;
+}
+.social-links .email-social-link {
+  color: #000;
+}
+.social-links .email-social-link .fa,
+.social-links .email-social-link .fas,
+.social-links .email-social-link .fab {
+  padding-right: 0.6rem;
+}
+.social-links .email-social-link:hover span {
   text-decoration: underline;
 }
 .cv-links {
