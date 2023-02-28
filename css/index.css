@@ -673,17 +673,6 @@ blockquote p {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.social-links .e-social-link {
-  color: #000;
-}
-.social-links .e-social-link .fa,
-.social-links .e-social-link .fas,
-.social-links .e-social-link .fab {
-  padding-right: 0.6rem;
-}
-.social-links .e-social-link:hover span {
-  text-decoration: underline;
-}
 .social-links .email-social-link {
   color: #000;
 }
@@ -693,6 +682,17 @@ blockquote p {
   padding-right: 0.6rem;
 }
 .social-links .email-social-link:hover span {
+  text-decoration: underline;
+}
+.social-links .e-social-link {
+  color: #000;
+}
+.social-links .e-social-link .fa,
+.social-links .e-social-link .fas,
+.social-links .e-social-link .fab {
+  padding-right: 0.6rem;
+}
+.social-links .e-social-link:hover span {
   text-decoration: underline;
 }
 .cv-links {
